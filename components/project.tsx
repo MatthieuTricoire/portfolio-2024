@@ -67,7 +67,7 @@ export const Project = ({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="group-hover:scale-105 group-hover:group-even:rotate-2 group-hover:group-even:translate-x-3 group-hover:group-even:translate-y-3 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition absolute hidden sm:block top-8 left-[22rem]  w-[40rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-[22rem]"
+          className="group-hover:scale-105 group-hover:group-even:rotate-2 group-hover:group-even:translate-x-3 group-hover:group-even:translate-y-3 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition absolute hidden sm:block top-8 left-[25rem]  w-[40rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-[22rem]"
         />
       </section>
     </motion.div>
