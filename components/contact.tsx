@@ -1,11 +1,9 @@
 "use client";
 
-import { FaPaperPlane } from "react-icons/fa";
 import { SectionHeading } from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/hooks/hooks";
 import { sendEmail } from "@/actions/sendEmail";
-import { useFormStatus } from "react-dom";
 import { SubmitButton } from "./submit-button";
 import toast from "react-hot-toast";
 
@@ -30,10 +28,10 @@ export const Contact = () => {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Me contacter</SectionHeading>
       <p className="text-gray-700 -mt-5 dark:text-white/80">
         Pour me contacter, vous pouvez le faire grâce à ce formulaire ou
-        directement sur mon email{" "}
+        directement sur mon email :{" "}
         <a className="underline" href="mailto:matthieutricoire@gmail.com">
           matthieutricoire@gmail.com
         </a>

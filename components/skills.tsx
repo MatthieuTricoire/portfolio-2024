@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 } satisfies Variants;
 
 const Skills = () => {
-  const { ref } = useSectionInView("Skills", 0.3);
+  const { ref } = useSectionInView("Skills", 0.1);
 
   return (
     <section

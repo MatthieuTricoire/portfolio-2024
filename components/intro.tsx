@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
@@ -67,7 +66,7 @@ export const Intro = () => {
       </motion.div>
 
       <motion.div
-        className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium col-span-2"
+        className="mt-8 sm:mt-14 flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium col-span-2"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 100, y: 0 }}
         transition={{

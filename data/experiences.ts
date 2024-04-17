@@ -5,27 +5,36 @@ import { LuGraduationCap } from "react-icons/lu";
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Stage Développeur Frontend",
+    location: "À distance",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap), // icon: <LuGradutionCap/> only valid on tsx file.
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Création du MVP de Pelush. Monté en compétences sur Next.js 14",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Septembre 2023 - Mars 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Bootcamp Le Reacteur",
+    location: "À distance",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Formation autour du développement web et mobile. Prise en main du frontend (React / React Native) ainsi que du backend (Express).",
+    icon: React.createElement(LuGraduationCap), // icon: <LuGradutionCap/> only valid on tsx file.
+
+    date: "Janvier 2023 - Mars 2023",
+  },
+  {
+    title: "Product Owner",
+    location: "TotalEnergies, Pau",
+    description:
+      "Analyse des besoins utilisateurs, gestion du backlog, création de wireframes, organisation et animation de workshops, formations et recette des produits",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 - 2022",
+  },
+  {
+    title: "Ingénieur projet",
+    location: "TotalEnergies, Pau",
+    description:
+      "Élaboration de spécifications de différents modules autour des géostatistiques. Gestion de la TMA",
+    icon: React.createElement(FaReact),
+    date: "2012 - 2018",
   },
 ] as const;

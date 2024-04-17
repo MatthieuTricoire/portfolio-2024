@@ -4,11 +4,11 @@ export const links = [
     hash: "/",
   },
   {
-    name: "About",
+    name: "À propos",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projets",
     hash: "#projects",
   },
   {
@@ -16,7 +16,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Expérience",
     hash: "#experience",
   },
   {
