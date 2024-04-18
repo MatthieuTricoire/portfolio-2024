@@ -58,7 +58,7 @@ export const Intro = () => {
         </h1>
 
         <div className="flex items-center gap-2">
-          <span className="w-12 h-px bg-gray-600" />
+          <span className="w-12 h-px bg-gray-600 dark:bg-gray-200" />
           <h3 className="relative text-base font-medium">{introData.status}</h3>
         </div>
 
