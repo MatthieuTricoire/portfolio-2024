@@ -42,7 +42,6 @@ export const Experiences = () => {
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255,255,255,0.15)",
-                // fontSize: "80px",
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>

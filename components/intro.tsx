@@ -21,7 +21,7 @@ export const Intro = () => {
       className="mb-28 max-w-[50rem] w-full  sm:mb-0 -scroll-mt-56 grid grid-cols-2 place-items-center"
     >
       <div className="flex items-center">
-        <div className="relative">
+        <div className="relative hidden sm:block">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -51,15 +51,17 @@ export const Intro = () => {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="flex flex-col  h-full justify-center gap-2"
+        className="flex flex-col  h-full justify-center gap-2 col-span-2 sm:col-span-1 text-center sm:text-left"
       >
         <h1 className="mb-4 mt-4 text-2xl font-medium !leading-[1.5] sm:text-3xl  ">
           {introData.name}
         </h1>
 
         <div className="flex items-center gap-2">
-          <span className="w-12 h-px bg-gray-600 dark:bg-gray-200" />
-          <h3 className="relative text-base font-medium">{introData.status}</h3>
+          <span className="w-12 h-px bg-gray-600 dark:bg-gray-200 hidden sm:block" />
+          <h3 className="relative text-base font-medium text-center w-full sm:w-auto">
+            {introData.status}
+          </h3>
         </div>
 
         <small>{introData.description}</small>
@@ -94,21 +96,23 @@ export const Intro = () => {
           <HiDownload className="size-4 group-hover:translate-y-1 opacity-70 transition" />
         </a>
 
-        <a
-          href={socialLink.linkedin}
-          target="_blank"
-          className="borderBlack bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-900 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
-        >
-          <BsLinkedin className="size-6" />
-        </a>
+        <div className="flex gap-4">
+          <a
+            href={socialLink.linkedin}
+            target="_blank"
+            className="borderBlack bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-900 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
+          >
+            <BsLinkedin className="size-6" />
+          </a>
 
-        <a
-          href={socialLink.github}
-          target="_blank"
-          className="borderBlack bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-900 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
-        >
-          <FaGithubSquare className="size-7" />
-        </a>
+          <a
+            href={socialLink.github}
+            target="_blank"
+            className="borderBlack bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-900 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
+          >
+            <FaGithubSquare className="size-7" />
+          </a>
+        </div>
       </motion.div>
     </section>
   );

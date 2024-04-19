@@ -20,7 +20,7 @@ export const About = () => {
     >
       <SectionHeading>À propos de moi</SectionHeading>
 
-      <p className="leading-8 text-justify">
+      <p className="leading-8 text-justify text-sm sm:text-base">
         Après plus de 10 ans à travailler dans le domaine de la conception
         logicielle centrée sur les géosciences, j'ai ressenti le besoin de
         changer de perspective. Plutôt que de rester du côté de la gestion de
@@ -29,10 +29,7 @@ export const About = () => {
         C'est ainsi qu'en 2023, j'ai pris la décision de me reconvertir
         professionnellement pour revenir au domaine que j'avais étudié il y a 20
         ans : <span className="font-semibold">le développement</span>, plus
-        précisément le développement web. Ma partie préférée de la programmation
-        est l'aspect résolution de problèmes. Rien n'égale la satisfaction de
-        finalement trouver une solution à un problème difficile. Ma stack de
-        principale comprend{" "}
+        précisément le développement web. Ma stack de principale comprend{" "}
         <span className="font-semibold">
           React, Next.js, Node.js, PostgreSql et Prisma
         </span>

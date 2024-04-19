@@ -35,7 +35,7 @@ export const Project = ({
       }}
       className="mt-3 sm:mb-8 last:mb-0 group "
     >
-      <section className="rounded-lg bg-gray-100 group-even:pl-8 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[22rem]  hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">
+      <section className="rounded-lg bg-gray-100 sm:group-even:pl-8 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[22rem]  hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[55%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
@@ -43,11 +43,14 @@ export const Project = ({
           </p>
 
           <div className="mt-4 flex gap-3  items-center">
-            <a href={github} target="_blank">
-              <BsGithub className="size-6 text-gray-600  hover:scale-110 active:scale-105 hover:opacity-80" />
-            </a>
+            {github.length > 0 && (
+              <a href={github} target="_blank">
+                <BsGithub className="size-6 text-gray-600  hover:scale-[1.08] active:scale-105 hover:opacity-80 dark:text-gray-200 transition" />
+              </a>
+            )}
+
             <a href={live} target="_blank">
-              <AiFillEye className="size-7 text-gray-600  hover:scale-110 active:scale-105 hover:opacity-80" />
+              <AiFillEye className="size-7 text-gray-600  hover:scale-110 active:scale-105 hover:opacity-80 dark:text-gray-200 transition" />
             </a>
           </div>
 
