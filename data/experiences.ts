@@ -26,7 +26,7 @@ export const experiencesData = [
     location: "TotalEnergies, Pau",
     description:
       "Analyse des besoins utilisateurs, gestion du backlog, création de wireframes, organisation et animation de workshops, formations et recette des produits",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
   },
   {
@@ -34,7 +34,7 @@ export const experiencesData = [
     location: "TotalEnergies, Pau",
     description:
       "Élaboration de spécifications de différents modules autour des géostatistiques. Gestion de la TMA",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2012 - 2018",
   },
 ] as const;
