@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Matthieu | Portfolio",
   description:
-    "Matthieu est un frontend développeur à l'écoute de nouvelles opportunités.`",
+    "Matthieu est un frontend développeur à l'écoute de nouvelles opportunités.",
 };
 
 export default function RootLayout({
