@@ -26,7 +26,7 @@ export const projectsData = [
       "Amazon SeS",
     ],
     imageUrl: pelushImg,
-    github: "https://github.com/MatthieuTricoire/bleuvert-sanity",
+    github: "",
     live: "https://pelushapp.com/fr/liste-de-naissance/",
   },
 ] as const;
