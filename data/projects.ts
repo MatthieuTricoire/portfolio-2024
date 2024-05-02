@@ -6,7 +6,7 @@ export const projectsData = [
   {
     title: "Studio bleuvert",
     description:
-      "Création d'un site vitrine pour un studio d'architecture d'intérieur. Mise en place d'un CMS (Sanity) pour faciliter la contribution de nouvelles réalistations.",
+      "Création d'un site vitrine pour un studio d'architecture d'intérieur. Mise en place d'un CMS (Sanity) pour faciliter la contribution de nouvelles réalisations.",
     tags: ["Next.js", "Tailwind", "Typescript", "Sanity"],
     imageUrl: bleuvertImg,
     github: "https://github.com/MatthieuTricoire/bleuvert-sanity",
