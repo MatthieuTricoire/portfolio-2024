@@ -1,5 +1,6 @@
 import bleuvertImg from "@/public/projects/bleuvert.png";
 import pelushImg from "@/public/projects/pelush.png";
+import budgetTracker from "@/public/projects/budgetTracker.png";
 
 export const projectsData = [
   {
@@ -28,5 +29,13 @@ export const projectsData = [
     imageUrl: pelushImg,
     github: "",
     live: "https://pelushapp.com/fr/liste-de-naissance/",
+  },
+  {
+    title: "Budget Tracker",
+    description: "Réalisation d'une app qui permet de suivre son budget.",
+    tags: ["Next.js", "Tailwind", "Clerk", "React Query", "Shadcn"],
+    imageUrl: budgetTracker,
+    github: "https://github.com/MatthieuTricoire/budget-tracker",
+    live: "https://budget-tracker-a7osy1nlc-matths-projects.vercel.app/",
   },
 ] as const;
