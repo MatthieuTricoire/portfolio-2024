@@ -35,11 +35,11 @@ export const About = () => {
         </span>
         .
       </p>
-      <p className="mt-2 text-justify">
+      <p className="mt-2 text-justify italic">
         Si je suis <span className="italic">pas entrain de coder</span>, je suis
         probablement en montagne entrain de remplir{" "}
         <a
-          className="underline italic"
+          className="underline "
           href="https://www.instagram.com/matthieutricoire/"
           target="_blank"
         >
